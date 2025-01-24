@@ -3,25 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/main.css" type="text/css">
-    <title>Ecommerce</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <title>Home | Meu Ecommerce</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="/indexContato.html">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="menu" id="menu">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/indexSobre.html">Sobre</a></li>
+                    <li><a href="/indexContato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <section class="hero">
-            <h1>Seja bem-vindo ao nosso ecommerce com JavaScript</h1>
-            <p>Encontre aqui o seu produto</p>
-            <button>Compre Agora</button>
-        </section>
+        <div class="content" id="content">
+            <div class="toggle-button" id="toggle-button">Menu</div>
+            <section class="hero">
+                <h1>Seja bem-vindo ao nosso ecommerce com JavaScript</h1>
+                <p>Encontre aqui o seu produto</p>
+                <button>Compra Agora</button>
+            </section>
+        </div>
         <section class="products">
             <h2>Produtos em Destaque</h2>
             <div class="product-grid">
@@ -49,7 +56,8 @@
     </main>
 </body>
     <footer>
-        <p>&copy; 2025 - EBAC Ecommerce V1</p>
+        <p>&copy; 2025 - EBAC Ecommerce - Carlos Eduardo Alderighi</p>
     </footer>
     <script src="/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
 </html>
